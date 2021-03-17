@@ -42,11 +42,11 @@ we may reduce index lookup complexity by using a hash table.
         nums_dict = {}
         for x in range(len(nums)):
             nums_dict[nums[x]] = x #build hash table in format {num:idx}
-            for x in range(len(nums)):
-                search_target = target - nums[x]
-                # this second part of the if is necessary to avoid a number adding to itself
-                if search_target in nums_dict and nums_dict[search_target] != x:
-                    return [x, nums_dict[search_target]]
+        for x in range(len(nums)):
+            search_target = target - nums[x]
+            # this second part of the if is necessary to avoid a number adding to itself
+            if search_target in nums_dict and nums_dict[search_target] != x:
+                return [x, nums_dict[search_target]]
 ```
 **time complexity:** O(n)
 
