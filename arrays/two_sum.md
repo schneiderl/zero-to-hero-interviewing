@@ -19,13 +19,13 @@ you can return the answer in any order.
 
 ## first approach: brute force
 the most naive and simple approach to this problem would be to just loop through all elements in `nums` and sum it up with all subsequent elements. if the result of that sum adds up to the `target`, the result indexes have ben found
-
+```
     def twoSum(self, nums, target):
         for x in range(0, len(nums)):
             for y in range(x+1, len(nums)):
                 if nums[x]+nums[y] == target:
                     return [x, y]
-                    
+```
 **time complexity:** O(n^2)
 
 time complexity due to a double index lookup (double loop)
@@ -37,7 +37,7 @@ time complexity due to a double index lookup (double loop)
 the time complexity from the first approach can be improved.
 the complexity of the first approach is built upon the double lookup on the input array.
 we may reduce index lookup complexity by using a hash table.
-
+```
     def twoSum(self, nums: List[int], target: int) -> List[int]:
         nums_dict = {}
         for x in range(len(nums)):
@@ -47,7 +47,7 @@ we may reduce index lookup complexity by using a hash table.
                 # this second part of the if is necessary to avoid a number adding to itself
                 if search_target in nums_dict and nums_dict[search_target] != x:
                     return [x, nums_dict[search_target]]
-                    
+```
 **time complexity:** O(n)
 
 time complexity reduced from exponential to linear by using hash-table lookup capabilities.
