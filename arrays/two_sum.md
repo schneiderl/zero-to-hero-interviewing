@@ -19,7 +19,7 @@ you can return the answer in any order.
 
 ## first approach: brute force
 the most naive and simple approach to this problem would be to just loop through all elements in `nums` and sum it up with all subsequent elements. if the result of that sum adds up to the `target`, the result indexes have ben found
-```
+```python
     def twoSum(self, nums, target):
         for x in range(0, len(nums)):
             for y in range(x+1, len(nums)):
@@ -37,7 +37,7 @@ time complexity due to a double index lookup (double loop)
 the time complexity from the first approach can be improved.
 the complexity of the first approach is built upon the double lookup on the input array.
 we may reduce index lookup complexity by using a hash table.
-```
+```python
     def twoSum(self, nums: List[int], target: int) -> List[int]:
         nums_dict = {}
         for x in range(len(nums)):
