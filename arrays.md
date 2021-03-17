@@ -20,12 +20,12 @@ _complexity_: O (1)
     array.pop(index)
 _complexity_: O (n)
 
-#### search by index
+### search by index
 
     array.index(1)
 _complexity_: O (1)
 
-#### search by value
+### search by value
 search by value is done by traversing through array and checking each value
 _complexity_: O (1)
 
