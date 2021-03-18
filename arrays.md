@@ -4,7 +4,7 @@ arrays are data structures consisting of a collection of elements, each identifi
 
 you will very commonly find arrays as a part of your interview questions, specially as input/expected output parameters
 
-* please notice that traversing through an array can be costful, specially if your doing it more than once. you might want to consider the use of hash-tables in some cases.
+* please notice that traversing through an array can be costful, specially if your doing it more than once. you might want to consider the use of [hash-tables](hash-tables.md) in some cases.
 
 ## _examples_
 ### traversing 
