@@ -24,7 +24,7 @@ def isPalyndrome(word):
 	return True
 ```
 
-making use of the knowledge you could get on [two sum](questions/arrays/two_sum.md) and the information on this page, try solving [two sum ii](questions/arrays/two_sum-ii.md) 
+making use of the knowledge you could get on [two sum](questions/arrays/two-sum.md) and the information on this page, try solving [two sum ii](questions/arrays/two-sum-ii.md) 
 
 ### when to use it
 
@@ -36,5 +36,5 @@ typical questions that rely on two-pointers contain requirements like this:
 
 
 ### questions to exercise it
-[two sum ii](questions/arrays/two_sum-ii.md)
+[two sum ii](questions/arrays/two-sum-ii.md)
 [longest substring without repeating characters](questions/hash-tables/longest-substring-without-repeating-characters.md)

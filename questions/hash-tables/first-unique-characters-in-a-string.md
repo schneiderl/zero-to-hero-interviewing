@@ -55,3 +55,7 @@ return -1
 
 ```
 _complexity:_ O(n*2) -> O(n) 
+
+
+#
+topics: [hash-table](hash-table.md)
