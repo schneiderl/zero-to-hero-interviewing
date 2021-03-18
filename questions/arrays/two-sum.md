@@ -28,7 +28,7 @@ the most naive and simple approach to this problem would be to just loop through
 ```
 **time complexity:** O(n^2)
 
-time complexity due to a double index lookup (double loop)
+time complexity due to a double index lookup (nested loop)
 
 **space complexity**: O(1)
 
