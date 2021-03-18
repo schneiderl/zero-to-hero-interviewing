@@ -8,21 +8,27 @@ you will very commonly find arrays as a part of your interview questions, specia
 
 ## _examples_
 ### traversing 
-
-    for item in array:
-    	print(item)
+```python
+for item in array:
+    print(item)
+```
 _complexity_: O (n)
 
 ### appending 
-    array.append(7)
+```python
+array.append(7)
+```
 _complexity_: O (1)
 ### deletion
-    array.pop(index)
+```python
+array.pop(index)
+```
 _complexity_: O (n)
 
 ### search by index
-
-    array.index(1)
+```python
+array.index(1)
+```
 _complexity_: O (1)
 
 ### search by value
@@ -30,7 +36,7 @@ search by value is done by traversing through array and checking each value
 _complexity_: O (1)
 
 ### update
-
-    array[index] = updated_value
-
+```python
+array[index] = updated_value
+```
 _complexity_: O (1)
