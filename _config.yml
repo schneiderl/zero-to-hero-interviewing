@@ -1,0 +1,30 @@
+# Site settings
+title:          zero to hero
+description:    "zero to hero."
+url:            https://ztoh.dev/
+
+# Author
+author:
+  name:         lucas schneider
+  email:        casdpa@gmail.com
+  url:          https://github.com/schneiderl
+
+# Build settings
+markdown:       kramdown
+
+# Assets
+sass:
+  sass_dir:     _sass
+  style:        compressed
+
+# Gems
+plugins:
+  - jekyll-feed
+  - jekyll-paginate
+  # - jemoji #Uncomment this to allow emoji in your post
+
+
+# Links to social media
+social:
+  email: casdpa@gmail.com
+  github: https://github.com/schneiderl
