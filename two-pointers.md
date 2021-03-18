@@ -24,7 +24,9 @@ def isPalyndrome(word):
 	return True
 ```
 
-making use of the knowledge you could get on [two sum](questions/arrays/two-sum.md) and the information on this page, try solving [two sum ii](questions/arrays/two-sum-ii.md) 
+making use of the knowledge you could get on [two sum](questions/arrays/two-sum.md) and the information on this page, try solving [two sum ii](questions/arrays/two-sum-ii.md)
+
+also read [sliding window](sliding-window.md). 
 
 ### when to use it
 
@@ -33,6 +35,7 @@ whenever there is an array and the question deals with finding two elements that
 typical questions that rely on two-pointers contain requirements like this:
 * search for two or more items
 * search multiple items in a sorted array
+* compare the end of the array with the begining
 
 
 ### questions to exercise it
