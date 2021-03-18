@@ -1,1 +1,33 @@
-remote_theme: chesterhow/tale
+# Site settings
+title:          zero to hero
+description:    "zero to hero."
+url:            https://github.com/schneiderl/zero-to-hero-interviewing
+
+# Author
+author:
+  name:         lucas schneider
+  email:        casdpa@gmail.com
+  url:          https://inelaah.com
+
+# Build settings
+markdown:       kramdown
+
+# Assets
+sass:
+  sass_dir:     _sass
+  style:        compressed
+
+# Gems
+plugins:
+  - jekyll-feed
+  - jekyll-paginate
+  # - jemoji #Uncomment this to allow emoji in your post
+
+# Permalinks
+permalink:      /:year-:month-:day/:title
+paginate:       5
+
+# Links to social media
+social:
+  email: casdpa@gmail.com
+  github: https://github.com/schneiderl
