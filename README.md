@@ -21,3 +21,5 @@ problem solutions will be coded only in **python**, where as the examples of dat
   - [two pointers](two-pointers.md)
 
 _please be aware that this is in a very early phase, more content will be added in the future_
+
+@schneiderl
