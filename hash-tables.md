@@ -7,7 +7,7 @@ hash-table is a unordered collection of key-value pairs, where each key is uniqu
 
 ### when to use it
 
-hash tables are specially usefull when you have to do quick-search on things. see (and try to solve it), for instance [this exercise](questions/arrays/two_sum.md). as we can see, it is more efficient to do a preparation loop to build the hash table just so that we can use the quick lookup capabilities that hash tables offer. that is because hash tables are able to offer a access time of O(1).
+hash tables are specially usefull when you have to do quick-search on things. see (and try to solve it), for instance [this exercise](questions/arrays/two-sum.md). as we can see, it is more efficient to do a preparation loop to build the hash table just so that we can use the quick lookup capabilities that hash tables offer. that is because hash tables are able to offer a access time of O(1).
 
 typical questions that rely on hash tables contain requirements like this:
 * search for elements on a large dataset
@@ -18,7 +18,7 @@ typical questions that rely on hash tables contain requirements like this:
 it does not make sense to use this kind of data structure when you are expecting some kind of sorting in your data.
 
 ### questions to exercise it
-[two sum](questions/arrays/two_sum.md)
+[two sum](questions/arrays/two-sum.md)
 
 
 ## _examples_
