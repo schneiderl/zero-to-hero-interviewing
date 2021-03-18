@@ -55,4 +55,4 @@ time complexity reduced from exponential to linear by using hash-table lookup ca
 **space complexity**: O(1)
 
 #
-topics: arrays, hash-table
+topics: [arrays](arrays.md), [hash-table](hash-table.md)

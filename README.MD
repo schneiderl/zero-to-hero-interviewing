@@ -9,6 +9,7 @@ problem solutions will be coded only in **python**, where as the examples of dat
 ### study materials
 - data structures
   - arrays
+  - hash-tables
   - linked lists
   - stacks
   - queues
