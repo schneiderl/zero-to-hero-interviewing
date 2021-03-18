@@ -10,7 +10,7 @@ given a string, find the first non-repeating character in it and return its inde
 **input:** "leetcode"
 
 **output:** 0
---
+
 **input:** "loveleetcode"
 
 **output:** 2
@@ -30,7 +30,7 @@ for x in range (0, len(s)-1):
 		return x
 return -1
 ```
-complexity: O(n^2) due to the nested loop
+_complexity: O(n^2)_ due to the nested loop
 
 as we have seen on [hash-tables](hash-tables.md), whenever there is a nested loop, we might want to consider a hash-table solution. thus, the approach below.
 
@@ -54,4 +54,4 @@ for key, value in char_count.items():
 return -1
 
 ```
-complexity: O(n*2) -> O(n) 
+_complexity:_ O(n*2) -> O(n) 
