@@ -1,4 +1,4 @@
-# zero to hero - interviewing
+# home
 
 
 this repository contains a compilation of study resources and Leetcode questions with the respective solutions that cover the main concepts asked during coding interviews.
