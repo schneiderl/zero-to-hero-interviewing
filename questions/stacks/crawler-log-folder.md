@@ -5,16 +5,16 @@
 **problem statement:**
 a filesystem keeps a log each time a user performs a change folder operation. the possible operations are described belo:
 
-- "../" : move to the parent folder
-- "./" : remain on the same folder
-- "x/" : move to the child folder named x
+- `"../"` : move to the parent folder
+- `"./"` : remain on the same folder
+- `"x/"` : move to the child folder named x
 
 the input is a array of operations performed by the user. after all the operations are concluded, return the number of operations needed to go back to the main folder 
 
 
 **example:**
 
-**input:** logs = ["d1/","d2/","../","d21/","./"]
+**input:** `logs = ["d1/","d2/","../","d21/","./"]`
 
 **output:** 2
 
@@ -47,4 +47,4 @@ _complexity_: O(n) since we are looping at the input and doing constant time ope
 
 
 #
-topics: [arrays](../../stacks.md), [hash-table](../../hash-table.md)
+topics: [arrays](../../stacks.md)
