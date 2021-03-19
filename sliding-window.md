@@ -75,3 +75,5 @@ typical questions that rely on sliding windows contain requirements like this:
 
 
 ### questions to exercise it
+
+[longest substring without repeating characters](questions/hash-tables/longest-substring-without-repeating-characters.md)
