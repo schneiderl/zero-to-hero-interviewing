@@ -12,8 +12,8 @@ problem solutions will be coded only in **python**, where as the examples of dat
   - [arrays](arrays.md)
   - [hash-tables](hash-tables.md)
   - linked lists
-  - stacks
-  - queues
+  - [stacks](stacks.md)
+  - [queues](queues.md)
   - binary trees
   - matrixes
 
