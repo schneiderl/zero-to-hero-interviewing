@@ -15,7 +15,7 @@ let's say we want to implement a text editor that allows backspaces, we receive 
 `input ="abcd#e#f#", 
  "#" meaning the backspaces`
 
-what would be the end of our text editor? 
+what would be the end status of our text editor? 
 
 the final output would be `abc` as all the other letters were backspaced.
 
