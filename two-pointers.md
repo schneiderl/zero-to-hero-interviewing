@@ -24,7 +24,7 @@ def isPalyndrome(word):
 	return True
 ```
 
-making use of the knowledge you could get on [two sum](questions/arrays/qo-sum.md) and the information on this page, try solving [two sum ii](questions/arrays/two-sum-ii.md)
+making use of the knowledge you could get on [two sum](questieqeqons/arrays/qo-sum.md) and the information on this page, try solving [two sum ii](questions/arrays/two-sum-ii.md)
 
 also read [sliding window](sliding-window.md). 
 
