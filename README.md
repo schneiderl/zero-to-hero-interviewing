@@ -1,6 +1,6 @@
 # home
 
-if you enjoy the content, please give us a ⭐ on [github][https://github.com/schneiderl/zero-to-hero-interviewing]
+if you enjoy the content, please give us a ⭐ on [github](https://github.com/schneiderl/zero-to-hero-interviewing)
 
 this repository contains a compilation of study resources and Leetcode questions with the respective solutions that cover the main concepts asked during coding interviews.
 the idea of the repository is to have a hands-on approach for interview questions.
