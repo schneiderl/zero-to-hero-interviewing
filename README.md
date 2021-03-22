@@ -1,5 +1,6 @@
 # home
 
+if you enjoy the content, please give us a ⭐ on [github][https://github.com/schneiderl/zero-to-hero-interviewing]
 
 this repository contains a compilation of study resources and Leetcode questions with the respective solutions that cover the main concepts asked during coding interviews.
 the idea of the repository is to have a hands-on approach for interview questions.
@@ -21,5 +22,9 @@ problem solutions will be coded only in **python**, where as the examples of dat
   - [two pointers](two-pointers.md)
   - [sliding window](sliding-window.md)
 
+
+## want to contribute? 
+
+please do! anything is welcome: new question solutions, typo fixes, techniques/data structure page enhancements. 
 
 _please be aware that this is in a very early phase, more content will be added in the future_
